@@ -1,0 +1,22 @@
+#restaurant-hours {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #restaurant-hours td, #restaurant-hours th {
+    border: 1px solid #666;
+    padding: 8px;
+  }
+  
+  #restaurant-hours tr:nth-child(odd){background-color: #e5e6eb;}
+  
+  #restaurant-hours tr:hover {background-color: #ddd;}
+  
+  #restaurant-hours th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #EEEEEE;
+    color: white;
+  }

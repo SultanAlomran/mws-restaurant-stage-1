@@ -1,0 +1,67 @@
+/* ====================== Index.html Main Page Responsive ====================== */
+   
+/*  small  devices */
+
+@media (min-width: 600px) {
+    .filter-options {
+        height: auto;
+        }
+  }
+
+/*  medium  devices */
+
+  @media (min-width: 640px) and (max-width: 929px){
+    #restaurants-list {
+        grid-template-columns: repeat(2,2fr);
+        grid-gap: 1em; 
+        }
+        .ft-recipe {
+            width: 90%;
+        }    
+        .recipe-title {
+            font-size:1.15rem !important;
+          }
+          label{
+            display: inline-block;
+          }
+  }
+
+  /*  Large  devices */
+
+  @media (min-width: 930px) {
+    #restaurants-list {
+        grid-template-columns: repeat(3,2fr);
+        grid-gap: 1em;
+        }
+        .ft-recipe {
+            width: 95%;
+        }
+        .recipe-title {
+            font-size:1.15rem !important;
+          }
+          label{
+            display: inline-block;
+          }
+  }
+  
+
+  /* Extra large devices */
+  
+  @media (min-width: 1200px) {  
+    #restaurants-list {
+        grid-template-columns: repeat(4,2fr);
+        grid-gap: 1em;
+        }
+        .ft-recipe {
+            width: 90%;
+        }
+        .recipe-title {
+            font-size:1.15rem !important;
+          }
+          label{
+            display: inline-block;
+          }
+  }
+  
+
+  
